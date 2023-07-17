@@ -44,6 +44,7 @@ body {
 
 #navbar {
     background: var(--navbar-bkgd);
+    padding: 0 var(--outer-md);
 }
 
 #menu-items {
@@ -61,22 +62,33 @@ body {
 
 main {
     overflow-y: auto;
+    padding: 0 var(--outer-md);
 }
 
 #document-body {
 
 }
 
-section {
+#welcome-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-
+    padding-bottom: 4rem;
 }
-
 
 @media only screen and (min-width: 700px) {
     #menu-items {
         justify-content: end;
         gap: var(--outer-xl);
         padding: var(--outer-md) var(--outer-lg);
+    }
+
+    navbar {
+        padding: 0 var(--outer-lg);
+    }
+
+    main {
+        padding: 0 var(--outer-lg);
     }
 }
