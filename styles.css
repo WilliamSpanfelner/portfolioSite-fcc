@@ -1,0 +1,42 @@
+:root {
+  --outer-sm: 0.5rem;
+  --outer-md: 1rem;
+  --outer-lg: 2rem;
+  --outer-xl: 3rem;
+
+  /* colors */
+  --navbar-bkgd: #aba;
+  --blockquote: #979797;
+  --code-block-bkgd: #1f1f1f;
+  --black: #000;
+  --note: #ff4500;
+  --b-color: beige; /*menu-items border color*/
+    /* code colors */
+  --p-chr: #32cd32;
+  --p-kw: #ff8c00;
+  --p-func: #ff1493;
+  --p-self: #ff69b4;
+  --p-str: #7cfc00;
+  --p-prt: #9370db;
+  --p-name: #1e90ff;
+  --p-int: #00bfff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#welcome-section {
+    height: 100vh;
+}
+
+@media only screen and (min-width: 700px) {
+    #navbar {
+        min-width: 17rem;
+        padding: unset;
+        border-right: 2px solid;
+        border-bottom: unset;
+    }
+}
