@@ -32,15 +32,44 @@
 body {
     color: var(--b-color);
     background: var(--body-bkgd);
+
+    height: 100vh;
+}
+
+#document {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 #navbar {
     background: var(--navbar-bkgd);
 }
 
-#welcome-section {
-    height: 100vh;
+#menu-items {
+    list-style: none;
 }
+
+.nav-link {
+    color: var(--b-color);
+    text-decoration: none;
+}
+
+main {
+    overflow-y: auto;
+}
+
+#document-body {
+
+}
+
+
+
+section {
+    height: 100vh;
+
+}
+
 
 @media only screen and (min-width: 700px) {
     #navbar {
