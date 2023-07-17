@@ -5,7 +5,8 @@
   --outer-xl: 3rem;
 
   /* colors */
-  --navbar-bkgd: #aba;
+  --body-bkgd: #2c2c2c;
+  --navbar-bkgd: #4d4dff;
   --blockquote: #979797;
   --code-block-bkgd: #1f1f1f;
   --black: #000;
@@ -26,6 +27,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    color: var(--b-color);
+    background: var(--body-bkgd);
+}
+
+#navbar {
+    background: var(--navbar-bkgd);
 }
 
 #welcome-section {
