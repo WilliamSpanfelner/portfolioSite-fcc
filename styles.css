@@ -45,14 +45,21 @@ body {
 #navbar {
     background: var(--navbar-bkgd);
     padding: 0 var(--outer-md);
+    display: flex;
+    align-items: center;
+}
+
+#avatar {
+    height: var(--outer-xl);
+    margin-right: auto;
 }
 
 #menu-items {
     display: flex;
-    justify-content: space-evenly;
+    gap: var(--outer-sm);
     list-style: none;
     font-size: 1.2rem;
-    padding: var(--outer-md);
+    padding: var(--outer-md) 0 var(--outer-md) var(--outer-md);
 }
 
 .nav-link {
@@ -77,14 +84,19 @@ main {
     padding-bottom: 4rem;
 }
 
+@media only screen and (min-width: 360px) {
+    #menu-items {
+        justify-content: flex-end;
+        gap: var(--outer-md);
+    }
+}
+
 @media only screen and (min-width: 700px) {
     #menu-items {
-        justify-content: end;
         gap: var(--outer-xl);
-        padding: var(--outer-md) var(--outer-lg);
     }
 
-    navbar {
+    #navbar {
         padding: 0 var(--outer-lg);
     }
 
