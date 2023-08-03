@@ -76,12 +76,26 @@ main {
 
 }
 
-#welcome-section {
+#welcome-section,
+#contact-section {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     padding-bottom: 4rem;
+}
+
+#social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+object {
+  min-width: 2rem;
+  min-height: 2rem;
+  max-width: 3.8rem;
+  max-height: 3.8rem;
 }
 
 @media only screen and (min-width: 360px) {
