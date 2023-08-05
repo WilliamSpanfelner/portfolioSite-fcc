@@ -72,17 +72,29 @@ main {
     padding: 0 var(--outer-md);
 }
 
-#document-body {
-
-}
-
 #welcome-section,
 #contact-section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     padding-bottom: 4rem;
+}
+
+h1 {
+    letter-spacing: 0.13rem;
+}
+
+#name {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#pro {
+    color: var(--navbar-bkgd);
+    font-style: italic;
+    font-size: x-large;
 }
 
 #social-icons {
