@@ -39,6 +39,10 @@ body {
     height: 100vh;
 }
 
+ul {
+    list-style: none;
+}
+
 #document {
     display: flex;
     flex-direction: column;
@@ -47,9 +51,10 @@ body {
 
 #navbar {
     background: var(--navbar-bkgd);
-    padding: 0 var(--outer-md);
+    padding: var(--outer-sm) var(--outer-md);
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #avatar {
@@ -124,10 +129,6 @@ object {
     }
 
     #navbar {
-        padding: 0 var(--outer-lg);
-    }
-
-    main {
-        padding: 0 var(--outer-lg);
+        padding: var(--outer-md) var(--outer-lg);
     }
 }
