@@ -62,6 +62,13 @@ ul {
     margin-right: auto;
 }
 
+#logo-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 #menu-items {
     display: flex;
     gap: var(--outer-sm);
@@ -116,9 +123,10 @@ object {
   max-height: 3.8rem;
 }
 
-@media only screen and (min-width: 360px) {
-    #menu-items {
-        justify-content: flex-end;
+@media only screen and (min-width: 540px) {
+    #logo-items {
+        flex-direction: row;
+        justify-content: center;
         gap: var(--outer-md);
     }
 }
@@ -132,3 +140,9 @@ object {
         padding: var(--outer-md) var(--outer-lg);
     }
 }
+@media only screen and (min-width: 840px) {
+    #logo-items {
+        margin-right: auto;
+    }
+}
+
