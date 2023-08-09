@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Source+Code+Pro&display=swap');
+
 :root {
   --outer-sm: 0.5rem;
   --outer-md: 1rem;
@@ -30,6 +32,7 @@
 }
 
 body {
+    font-family: sans-serif;
     color: var(--b-color);
     background: var(--body-bkgd);
 
@@ -82,13 +85,11 @@ main {
     padding-bottom: 4rem;
 }
 
-h1 {
-    letter-spacing: 0.13rem;
-}
-
 #name {
-    font-size: 2rem;
+    font-family: "Cinzel", serif;
+    font-size: var(--outer-lg);
     font-weight: bold;
+    letter-spacing: 0.13rem;
 }
 
 #pro {
