@@ -135,10 +135,16 @@ main {
 }
 
 .project-image {
-    height: calc(100% - 3.8rem);
+    height: calc(100% - 6.8rem);
     width: 100%;
     object-fit: cover;
     border-radius: var(--outer-md) var(--outer-md) 0 0;
+}
+
+.project-title {
+    color: var(--b-color);
+    font-size: var(--outer-lg);
+    padding: var(--outer-lg) var(--outer-sm);
 }
 /* projects-section - end */
 
