@@ -62,6 +62,13 @@ ul {
     margin-right: auto;
 }
 
+#name {
+    font-family: "Cinzel", serif;
+    font-size: var(--outer-lg);
+    font-weight: bold;
+    letter-spacing: 0.13rem;
+}
+
 #logo-items {
     display: flex;
     flex-direction: column;
@@ -100,19 +107,15 @@ main {
     padding-bottom: 4rem;
 }
 
-#name {
-    font-family: "Cinzel", serif;
-    font-size: var(--outer-lg);
-    font-weight: bold;
-    letter-spacing: 0.13rem;
-}
-
+/* welcome section */
 #pro {
     color: var(--navbar-bkgd);
     font-style: italic;
     font-size: x-large;
 }
+/* welcome section - end */
 
+/* contact-section */
 #social-icons {
   display: flex;
   justify-content: center;
@@ -125,6 +128,7 @@ object {
   max-width: 3.8rem;
   max-height: 3.8rem;
 }
+/* contact-section - end */
 
 @media only screen and (min-width: 540px) {
     #logo-items {
