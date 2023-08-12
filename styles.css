@@ -133,6 +133,13 @@ main {
     border-radius: var(--outer-md);
     text-decoration: none;
 }
+
+.project-image {
+    height: calc(100% - 3.8rem);
+    width: 100%;
+    object-fit: cover;
+    border-radius: var(--outer-md) var(--outer-md) 0 0;
+}
 /* projects-section - end */
 
 /* contact-section */
