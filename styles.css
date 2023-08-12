@@ -8,6 +8,7 @@
 
   /* colors */
   --body-bkgd: #2c2c2c;
+  --card-bkgd: #7676d6;
   --navbar-bkgd: #4d4dff;
   --blockquote: #979797;
   --code-block-bkgd: #1f1f1f;
@@ -98,11 +99,13 @@ main {
 }
 
 #welcome-section,
+#projects-section,
 #contact-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     height: 100vh;
     padding-bottom: 4rem;
 }
@@ -116,17 +119,19 @@ main {
 /* welcome section - end */
 
 /* projects-section */
-#projects-section {
-  text-align: center;
-  padding: 10rem 2rem;
-}
-
 .projects-section-title {
   font-size: 4.2rem;
   margin: 0 auto 6rem auto;
   border-bottom: 0.2rem solid white;
 
   line-height: 1.4;
+}
+
+.project-card {
+    background: var(--card-bkgd);
+    box-shadow: var(--outer-md) var(--outer-md) var(--outer-lg) rgba(0, 0, 0, 0.5);
+    border-radius: var(--outer-md);
+    text-decoration: none;
 }
 /* projects-section - end */
 
