@@ -10,15 +10,14 @@
   /* colors */
   --body-bkgd: #2c2c2c;
   --card-bkgd: #0073e6;
-/*
-  --card-bkgd: #7676d6;
-*/
+/*--card-bkgd: #7676d6;*/
   --navbar-bkgd: #4d4dff;
   --blockquote: #979797;
   --code-block-bkgd: #1f1f1f;
   --black: #000;
   --note: #ff4500;
   --b-color: beige; /*menu-items border color*/
+
     /* code colors */
   --p-chr: #32cd32;
   --p-kw: #ff8c00;
@@ -88,7 +87,7 @@ ul {
     justify-content: space-between;
 }
 
-#menu-items li:hover {
+.nav-link:hover {
     border-bottom: 2px solid var(--b-color);
 }
 
